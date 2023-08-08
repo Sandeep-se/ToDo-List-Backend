@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: '*',
+  origin: 'https://todo-list-mern-phi.vercel.app',
   credentials: true,
 }));
 
