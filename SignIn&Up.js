@@ -1,6 +1,8 @@
 const express=require('express')
 const User=require('./model.js')
 const asynchandler=require('express-async-handler')
+const cors=require('cors');
+
 
 
 const signIn=(async(req, res) => {
