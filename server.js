@@ -8,12 +8,12 @@ const router=require('./Router.js')
 require('dotenv').config()
 
 connectDB();
-
+ 
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: 'https://todo-list-mern-phi.vercel.app',
+  origin: 'https://todo-list-ruddy-two.vercel.app',
   credentials: true,
 }));
 
