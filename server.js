@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: 'https://todo-list-ruddy-two.vercel.app',
+  origin: 'https://main--playful-truffle-ca2aa1.netlify.app',
   credentials: true,
 }));
 
