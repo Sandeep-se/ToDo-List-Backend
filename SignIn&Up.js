@@ -19,7 +19,7 @@ const signIn=(async(req, res) => {
         res.json('password is incorrect')
       }
     } else {  
-      res.json('not exist');
+      res.json('not exist'); 
     }
   } catch (e) {
     res.json('the id is not valid');

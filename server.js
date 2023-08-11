@@ -11,7 +11,7 @@ connectDB();
  
 
 app.use(express.json());
-app.use(cookieParser());
+app.use(cookieParser({cookieDomain: 'playful-truffle-ca2aa1.netlify.app' }));
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   origin: 'https://playful-truffle-ca2aa1.netlify.app',
